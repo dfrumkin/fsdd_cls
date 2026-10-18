@@ -1,0 +1,13 @@
+# Agent instructions and config
+AGENTS.md
+CLAUDE.md
+.claude/
+.codex/
+plans/
+
+# Python
+.venv/
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/

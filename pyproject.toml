@@ -1,0 +1,21 @@
+[project]
+name = "fsdd-cls"
+version = "0.1.0"
+description = "Audio classification on the Free Spoken Digit Dataset"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "numpy",
+    "scikit-learn",
+    "soundfile",
+    "torch",
+    "torchaudio",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+]
+
+[tool.uv]
+package = false
