@@ -5,6 +5,7 @@ description = "Audio classification on the Free Spoken Digit Dataset"
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
 dependencies = [
+    "matplotlib",
     "numpy",
     "scikit-learn",
     "soundfile",

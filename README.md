@@ -27,6 +27,10 @@ git submodule update --init
 Recordings are in `data/free-spoken-digit-dataset/recordings/`: 3,000 mono
 8 kHz WAV files named `{digit}_{speaker}_{index}.wav`.
 
+## Notebook
+
+All work is in `fsdd_classification.ipynb` in the repository root.
+
 ## Jupyter in VSCode
 
 Open a notebook and select the `.venv` interpreter (Python 3.13) as the kernel.
